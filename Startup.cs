@@ -10,7 +10,7 @@ using Microsoft.Extensions.Logging;
 using System.Reflection;
 using System.IO;
 
-namespace dotnetcore_sample
+namespace pipelines_dotnet_core_docker
 {
     public class Startup
     {
