@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 
-namespace pipelines-dotnet-core-docker
+namespace pipelines_dotnet_core_docker
 {
     public class Program
     {
