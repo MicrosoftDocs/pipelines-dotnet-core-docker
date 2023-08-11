@@ -2,7 +2,7 @@
 # See http://docs.microsoft.com/azure/devops/pipelines/languages/docker for more information
 sut:
   build: .
-  dockerfile: docs/Dockerfile.test
+  dockerfile: Docs/Dockerfile.test
   links:
     - web
 web:
