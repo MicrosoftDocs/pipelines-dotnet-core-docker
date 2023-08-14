@@ -11,7 +11,7 @@ RUN dotnet build -c Release
 RUN dotnet publish -c Release -o out
 
 # Second stage - Build runtime image
-FROM mcr.microsoft.com/dotnet/sdk:7.0
+FROM mcr.microsoft.com/dotnet/sdk
 WORKDIR /app
 COPY --from=build-env /app/out .
 ENTRYPOINT ["dotnet", "pipelines-dotnet-docker.dll"]
